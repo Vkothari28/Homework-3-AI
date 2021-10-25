@@ -4,8 +4,6 @@ from scipy.spatial import distance
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 
-# https://github.com/geodra/Articles/blob/master/K-Means_scratch.ipynb
-
 # %matplotlib inline
 
 data = pd.read_csv('cluster_data.txt', sep='\t')
